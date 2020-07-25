@@ -14,13 +14,11 @@ const PRODUCT_FETCH = (function() {
 
     const addProduct = (product) => {
         const allProductsLength = allProducts.length;
-        debugger
         allProducts.push({id: allProductsLength + 1 , ...product});
         DISPLAY_PRODUCTS.displayProductTable(getProduct());
     }
 
     const deleteProduct = (product) => {
-        debugger
         const prodIndex = allProducts.findIndex(prodItem => prodItem.id === product.id);
         if(prodIndex >= 0 ){
             allProducts.splice(prodIndex, 1);
