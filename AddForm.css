@@ -1,0 +1,20 @@
+.addFormInput {
+    width: 45%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+    margin: 10px;
+    font-size: 14px;;
+}
+
+.addForm {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+    margin-bottom: 21px;
+    border-radius: 5px;
+    align-items: center;
+}

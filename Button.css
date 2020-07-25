@@ -1,0 +1,13 @@
+.addButton {
+    color: white;
+    background: #4e924e;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hide {
+    visibility: hidden;
+}

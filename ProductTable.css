@@ -1,0 +1,18 @@
+.productDiv {
+    border: 1px solid #e2e2e2;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.productRow {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.productRow div {
+    width: 15%;
+    text-align: center;
+    word-break: break-all;
+}
